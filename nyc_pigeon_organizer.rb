@@ -26,3 +26,5 @@ def nyc_pigeon_organizer(data)
   end
   new_data
 end
+
+# pretty sure im not using the enumrables correctly. I am just using them as loops but they should be able to assign stuf on their own.
