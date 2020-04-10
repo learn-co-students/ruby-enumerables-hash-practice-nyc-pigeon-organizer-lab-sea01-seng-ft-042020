@@ -14,6 +14,7 @@ data.each do |attributes, value_hash|
       if pigeons[name][attributes] == nil
          pigeons[name][attributes] = []
       end
+        pigeons[name][attributes] << descriptions.to_s 
     end
   end
 end
