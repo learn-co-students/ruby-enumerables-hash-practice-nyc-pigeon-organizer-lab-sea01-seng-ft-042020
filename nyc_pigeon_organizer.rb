@@ -7,7 +7,7 @@ pigeons = {}
 data.each do |attributes, value_hash|
   value_hash.each do |descriptions, names_array|
     names_array.each do |name|
-    binding.pry
+    #binding.pry
       if pigeons[name] == nil 
          pigeons[name] = {}
       end
